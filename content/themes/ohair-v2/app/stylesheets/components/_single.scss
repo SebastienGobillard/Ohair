@@ -1,0 +1,136 @@
+.single {
+
+    article {
+
+        .info, .info_bis {
+            text-align: center;
+            font-size: 0.8rem;
+            font-style: italic;
+
+            span{
+                font-style: normal;
+                font-weight: bold;
+            }
+        }
+
+        .illustration {
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .contenu {
+            line-height: 2rem;
+        }
+
+        .info_bis {
+            text-align: left;
+            margin-bottom: 75px;
+        }
+
+        .commentaires {
+
+            .commentlist {
+                h3 {
+                    margin-bottom: 20px;
+                }
+    
+                .comment-body {
+                    padding: 25px;
+                    font-size: 0.9rem;
+                    border-bottom: 1px dotted $main-color;
+    
+                    .comment-author {
+                        img {
+                            border-radius: 50%;
+                        }
+                    }
+    
+                    .comment-meta {
+                        font-size: 0.8rem;
+                        font-style: italic;
+                    }
+    
+                    p {
+                        margin-left: 25px;
+                        margin-bottom: 15px;
+                    }
+    
+                    .reply {
+                        display: inline;
+                        padding: 10px;
+                        color: $scdry-color-alt;
+                        font-weight: bold;
+                        background-color: lighten($main-color,15);
+                        border-radius: 10px;
+    
+                        &:hover {
+                            background-color: lighten($main-color, 30);
+                        }
+                    }
+    
+                }
+    
+                .children {
+                    margin-left: 50px;
+                }
+            }
+
+            .comment-respond {
+                // background-color: pink;
+
+                p{
+                    padding: 0 10px;
+
+                    textarea{
+                        resize: none;
+                    }
+                }
+
+                .comment-form {
+                    display: flex;
+                    flex-direction: column;
+
+                    &-comment,
+                    &-author,
+                    &-email,
+                    &-url {
+                        display: flex;
+                        flex-direction: column;
+
+                        label, .required{
+                            font-weight: bold;
+                        }
+                    }
+
+                    .comment-notes {
+                        order: -1;
+                    }
+
+                    &-author,
+                    &-email,
+                    &-url {
+                        order: -1;
+                    }
+                }
+
+                .form-submit {
+
+                    .submit {
+                        width: 100%;
+                        padding: 10px;
+                        color: $scdry-color-alt;
+                        font-weight: bold;
+                        background-color: lighten($main-color,15);
+                        border-radius: 10px;
+                        border: none;
+    
+                        &:hover {
+                            background-color: lighten($main-color, 30);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

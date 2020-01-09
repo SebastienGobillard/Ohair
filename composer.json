@@ -1,0 +1,31 @@
+{
+    "name": "O'hair",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^5.2.2",
+        "wpackagist-theme/twentynineteen": "*"
+    },
+    "require-dev": {
+        "wpackagist-plugin/what-the-file": "*",
+        "wpackagist-plugin/simply-show-hooks": "*",
+        "wpackagist-plugin/disable-gutenberg": "*"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastien Gobillard",
+            "email": "sebastien.gobillard@gmail.com"
+        }
+    ]
+}

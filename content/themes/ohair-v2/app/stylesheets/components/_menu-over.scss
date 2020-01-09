@@ -1,0 +1,31 @@
+.menu_over {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba($color: $main-color-alt, $alpha: 0.7);
+    visibility: hidden;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: 50;
+
+    div {
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+        
+        ul {
+            justify-content: center;
+            display:flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            
+            li {
+                margin: 5px 0;
+                padding: 15px;
+            }
+        }
+    }
+}

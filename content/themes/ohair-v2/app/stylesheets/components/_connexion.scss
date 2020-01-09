@@ -1,0 +1,50 @@
+.connexion {
+    // background-color: pink;
+
+    form {
+        padding: 10px;
+        font-family: inherit;
+
+        div{
+            margin: 20px;
+            text-align: center;
+        }
+
+        .login,
+        .password {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                padding: 5px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            input {
+                width: 400px;
+                margin: auto;
+                text-align: center;
+                border: none;
+                padding: 10px;
+                box-shadow: 0 0 5px lighten($main-color, 15);
+            }
+        }
+
+        .submit {
+            font-family: inherit;
+            display: block;
+            margin: auto;
+            color: $scdry-color-alt;
+            width: 200px;
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: lighten($main-color, 15);
+        }
+
+
+    }
+}

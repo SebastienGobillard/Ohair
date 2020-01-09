@@ -1,0 +1,14 @@
+notes/
+.DS_Store
+.htaccess
+wp-config.php
+_wp-config-prod.php
+vendor/
+wp/
+/content/*
+!/content/themes
+/content/themes/*
+!/content/themes/ohair-v2
+!/content/plugins
+/content/plugins/*
+!/content/plugins/ohair-v2-settings

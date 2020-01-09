@@ -1,0 +1,59 @@
+header {
+    height: 250px;
+    background-image: url('/img/banner02.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    .translucid {
+        width: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.4);
+        
+        .menu {
+            width: 100%;
+            height: 50px;
+            background-color: $main-color-alt;
+            color: $main-color;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: fixed;
+            z-index: 150;
+            top: 0;
+    
+            .navigation, .connexion {
+                width: 100px;
+                // background-color: yellow;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+    
+                a {
+                    align-self: center;
+    
+                    &:hover {
+                        color: $scdry-color-alt;
+                    }
+                }
+            }
+        }
+    
+        .banner {
+            width: 100%;
+            margin-top: 50px;
+            padding-top:50px;
+            background-size: cover;
+            align-self: center;
+            // background-color: pink;
+            
+            h1, p {
+                color: $scdry-color-alt;
+                text-align: center;
+            }
+    
+            h1 {
+                margin: 0 15px;
+            }
+        }
+    }
+}

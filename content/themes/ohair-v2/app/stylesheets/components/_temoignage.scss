@@ -1,0 +1,36 @@
+// Pour la partie presentation, voir le ficher _annuaire.scss
+
+.articles {
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    article {
+        width: 300px;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        margin: 10px 10px;
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+
+        img {
+            border-radius: 50%;
+        }
+
+        .read_more {
+            color: $scdry-color-alt;
+            font-weight: bold;
+            background-color: $main-color;
+            border-radius: 15px;
+            padding: 5px;
+
+            &:hover {
+                text-shadow: 2px 2px 2px $main-color-alt,;
+            }
+        }
+    }
+}

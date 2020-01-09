@@ -1,0 +1,66 @@
+footer {
+    background-color: $main-color-alt;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    p::first-letter {
+        font-size: 1em;
+        font-weight: 400;
+    }
+    
+    div {
+        padding: 10px;
+        text-align: center;
+
+        
+    }
+
+    .social, .webdev {
+        width: 50%;
+        align-self: center;
+
+        @include respond-to('medium') {
+            width: calc(100%/3);
+        }
+
+        @include respond-to('large') {
+            width: calc(100%/3);
+        }
+    }
+
+    .social {
+
+        font-size: 1.5em;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }
+
+    .legal {
+        width: 100%;
+        order: 2;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        @include respond-to('medium') {
+            width: calc(100%/3);
+            order: 0;
+        }
+
+        @include respond-to('large') {
+            width: calc(100%/3);
+            order: 0;
+        }
+    }
+
+
+}

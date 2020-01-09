@@ -1,0 +1,29 @@
+// POLICES DE CARACTERES
+
+$font-text:     'Raleway', sans-serif;
+$font-title:    'Dosis', sans-serif;
+
+
+// TAILLE DE POLICE
+
+$font-size-small:   14px;
+$font-size-medium:  16px;
+$font-size-large:   18px;
+
+
+// COULEURS DU THEME : VINTAGE
+
+$main-color:        #0f1b07;    // deep-green
+$main-color-alt:    #c6d166;    // new grouth
+$scdry-color:       #5c821a;    // plants
+$scdry-color-alt:   #ffffff;    // white
+
+
+// POINTS DE RUPTURES
+
+$breakpoints: (
+// min-width = à compter d'une largeur de...
+    'small':    (min-width: 480px), // mobile
+    'medium':   (min-width: 768px), // tablette
+    'large':    (min-width: 991px), // ordinateur de bureau
+)

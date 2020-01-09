@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700|Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-text;
+    font-size: $font-size-small;
+    line-height: 1.5rem;
+    color: $main-color;
+    // line-height: 2rem;
+
+    @include respond-to('medium') {
+        font-size: $font-size-medium;
+    }
+
+    @include respond-to('large') {
+        font-size: $font-size-large;
+    }
+
+    // background-color: lighten($main-color-alt, 30);
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+    background-color: lighten($main-color-alt, 30);
+
+    // @include respond-to('medium') {
+    //     background-color: greenyellow;
+    // }
+
+    // @include respond-to('medium') {
+    //     background-color: orangered;
+    // }
+}
+
+h1, h2, h3, h4 {
+    font-family: $font-title;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+h2, h3 {
+    background-color : $scdry-color;
+    color: $scdry-color-alt;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    &::first-letter {
+        font-size: 2.5em;
+    }
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,13 @@
+body {
+
+    &.menu_over-visible {
+
+        .menu_over {
+           visibility: visible;
+        }
+
+        .wrapper {
+           filter: blur(8px);
+        }
+    }
+} 
