@@ -5,5 +5,7 @@ Un site web utilisant le moteur wordpress avec un thème créer de A à Z, offra
 Fonctionnalités : 
 
   . Système d'incription et de gestion de compte utilisateur.
+  
   . Recherche de profil utilisateur avec différent filtres et possibilité de prise de contact.
+  
   . Publication d'articles avec possibilité aux utilisateurs de laisser des commentaires.
