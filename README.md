@@ -9,3 +9,4 @@ Fonctionnalités :
   . Recherche de profil utilisateur avec différent filtres et possibilité de prise de contact.
   
   . Publication d'articles avec possibilité aux utilisateurs de laisser des commentaires.
+  
