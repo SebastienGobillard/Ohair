@@ -1,6 +1,6 @@
 # Ohair - Projet de fin de formation O'clock
 
-Un site web utilisant le moteur wordpress avec un thème créer de A à Z, offrant la possibilité d'échanger des cheveux / perruques entre professionnel ou particulier (coiffeur, hopitaux, personne atteinte de perte de cheveux...)
+Un site web utilisant le moteur wordpress avec un thème créer de A à Z, offrant la possibilité d'échanger des cheveux / perruques entre professionnels ou particuliers (coiffeurs, hopitaux, personnes atteinte de perte de cheveux...)
 
 Fonctionnalités : 
 
